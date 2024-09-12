@@ -2,75 +2,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color:#ededf2 ;
+    background-color: #f2f2f2;
+    color: #333;
 }
 
 header {
-    padding: 20px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    background-color: #a6aec1;
-    border-bottom: 4px solid black;
-}
-
-h1 {
-    font-size: 40px;
-    font-style: normal;
-    font-weight: bold;
-}
-
-.contanier {
-    background-color: #6c788e;
-    width: 960px;
-    justify-content: center;
-    margin: auto;
-    margin-top: 3px;
-    border-radius: 8px;
-}
-
-.contanier form {
-    margin: 0 auto;
-    font-size: 16px;
-    display: flex;
-    padding: 16px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    border-bottom: 0.3px solid black;
-}
-
-form input, button {
-    font-size: 22px;
-    display: inline-block;
-    border: none;
-    margin-left: 3px;
-    padding: 6px;
-}
-
-form button {
-    background-color: #a6aec1;
-}
-
-form button:hover {
-    background-color: #cfd5e1;
-    transform: scale(1.03);
-    cursor: pointer;
-}
-
-ul li {
-    list-style: none;
-    text-align: center;
-    font-size: 28px;
+    background-color: #007bff;
     color: #fff;
-    font-style: oblique;
-    padding: 6px;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 auto;
 }
 
-li.click {
-    text-decoration: line-through;
-    color: black;
+h2 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-campo {
+    margin-bottom: 20px;
+}
+
+.form-campo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-campo input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.error {
+    color: red
 }
